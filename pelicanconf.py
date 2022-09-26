@@ -1,7 +1,7 @@
 AUTHOR = 'SummerBlue'
 SITENAME = "SummerBlue's Tech Note"
 # SITEURL = ''
-SITEURL = 'http://localhost:8000'
+SITEURL = '.'
 
 PATH = 'content'
 
