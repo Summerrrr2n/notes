@@ -24,7 +24,7 @@ CONFIG = {
     'settings_base': SETTINGS_FILE_BASE,
     'settings_publish': 'publishconf.py',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
-    'deploy_path': SETTINGS['OUTPUT_PATH'],
+    'deploy_path': 'docs',
     # Host and port for `serve`
     'host': 'localhost',
     'port': 8000,

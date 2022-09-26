@@ -5,6 +5,8 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
+OUTPUT_PATH = 'docs/'
+
 TIMEZONE = 'Asia/Shanghai'
 THEME = 'blue-penguin-dark'
 
