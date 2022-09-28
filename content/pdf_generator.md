@@ -1,6 +1,7 @@
 Title: PDF文件批量合并
-Date: 2022-2-7 18:23:53
+Date: 2022-9-27 18:23:53
 Category: python
+Tags: python, PDF
 
 一个用于把各个文件夹中的多个pdf合并为一个pdf，并以文件夹的名字为PDF名的小脚本。
 
