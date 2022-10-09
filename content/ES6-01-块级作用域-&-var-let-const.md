@@ -1,6 +1,6 @@
 Title: ES6-01 块级作用域 & var/let/const
 Date: 2022-04-08 11:56:15
-Category: note, 学习, 学习, 工作, 深入理解ES6
+Tags: note, 学习, 学习, 工作, 深入理解ES6
 
 <!-- wp:heading {"level":3} -->
 <h3>目的： </h3>
