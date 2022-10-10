@@ -1,6 +1,6 @@
 Title: bug 调试方法
 Date: 2022-04-22 11:08:05
-Category: 未分类
+Tags: 未分类
 
 <!-- wp:paragraph -->
 <p><a href="https://pro.ant.design/zh-CN/docs/debug">https://pro.ant.design/zh-CN/docs/debug</a></p>

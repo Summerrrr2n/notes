@@ -1,6 +1,6 @@
 Title: node卸载重装 & 环境变量配置
 Date: 2022-04-08 20:46:22
-Category: 学习, 学习, 工作, 工作, 环境配置
+Tags: 学习, 学习, 工作, 工作, 环境配置
 
 <!-- wp:paragraph -->
 <p><strong>卸载：</strong></p>
