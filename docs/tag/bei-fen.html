@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>SummerBlue's Tech Note | articles tagged "python"</title>
+    <title>SummerBlue's Tech Note | articles tagged "备份"</title>
     <link rel="shortcut icon" type="image/png" href="https://tech.summerblue.space/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://tech.summerblue.space/favicon.ico">
     <link rel="stylesheet" href="https://tech.summerblue.space/theme/css/main.css" type="text/css" />
@@ -16,7 +16,7 @@
     <header>
         <nav style="overflow: hidden;">
             <ul>
-                <li class="ephemeral selected"><a href="https://tech.summerblue.space/tag/python.html">python</a></li>
+                <li class="ephemeral selected"><a href="https://tech.summerblue.space/tag/bei-fen.html">备份</a></li>
                 <li><a href="https://tech.summerblue.space/">Home</a></li>
                 <li><a href="https://github.com/Summerrrr2n/">GitHub</a></li>
                 <li><a href="https://tech.summerblue.space/tags">Tags</a></li>
@@ -136,48 +136,11 @@
                     <a href="https://tech.summerblue.space/wordpressbei-fen-wen-jian-zhuan-markdownpython.html">posted at 13:23</a>
                     &nbsp;&middot;&nbsp;<a href="https://tech.summerblue.space/category/wordpress.html" rel="tag">Wordpress</a>
                     &nbsp;&middot;
-                    &nbsp;<a href="https://tech.summerblue.space/tag/python.html" class="tags selected">python</a>
+                    &nbsp;<a href="https://tech.summerblue.space/tag/python.html" class="tags">python</a>
                     &nbsp;<a href="https://tech.summerblue.space/tag/wordpress.html" class="tags">Wordpress</a>
-                    &nbsp;<a href="https://tech.summerblue.space/tag/bei-fen.html" class="tags">备份</a>
+                    &nbsp;<a href="https://tech.summerblue.space/tag/bei-fen.html" class="tags selected">备份</a>
                     &nbsp;<a href="https://tech.summerblue.space/tag/markdown.html" class="tags">Markdown</a>
                     &nbsp;<a href="https://tech.summerblue.space/tag/pelican.html" class="tags">Pelican</a>
-                </div>
-            </article>            <h4 class="date">9月 27, 2022</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="https://tech.summerblue.space/pdfwen-jian-pi-liang-he-bing.html" rel="bookmark" title="Permanent Link to &quot;PDF文件批量合并&quot;">PDF文件批量合并</a>
-                </h2>
-
-                
-                
-
-                <p>一个用于把各个文件夹中的多个pdf合并为一个pdf，并以文件夹的名字为PDF名的小脚本。</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfFileMerger</span>
-
-<span class="n">target_path</span> <span class="o">=</span> <span class="s1">&#39;C:</span><span class="se">\\</span><span class="s1">Users</span><span class="se">\\</span><span class="s1">SummerLiu</span><span class="se">\\</span><span class="s1">Downloads</span><span class="se">\\</span><span class="s1">Summer&#39;</span>
-<span class="n">pdf_lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">target_path</span><span class="p">)]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pdf_lst:  &#39;</span><span class="p">,</span><span class="n">pdf_lst</span><span class="p">)</span>
-<span class="n">pdf_lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">target_path</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span> <span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">pdf_lst</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pdf_lst1:  &#39;</span><span class="p">,</span><span class="n">pdf_lst</span><span class="p">)</span>
-<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">pdf_lst</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;dir:  &#39;</span><span class="p">,</span><span class="nb">dir</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;os.listdir(dir):  &#39;</span><span class="p">,</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="nb">dir</span><span class="p">))</span>
-    <span class="n">file_merger</span> <span class="o">=</span> <span class="n">PdfFileMerger</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">pdf</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="nb">dir</span><span class="p">):</span>
-        <span class="n">pdf_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">dir</span><span class="p">,</span> <span class="n">pdf</span><span class="p">)</span>
-        <span class="n">file_merger</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span>
-    <span class="n">file_merger</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">dir</span><span class="o">+</span><span class="s2">&quot;.pdf&quot;</span><span class="p">)</span>
-</code></pre></div>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="https://tech.summerblue.space/pdfwen-jian-pi-liang-he-bing.html">posted at 18:23</a>
-                    &nbsp;&middot;&nbsp;<a href="https://tech.summerblue.space/category/python.html" rel="tag">python</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="https://tech.summerblue.space/tag/python.html" class="tags selected">python</a>
-                    &nbsp;<a href="https://tech.summerblue.space/tag/pdf.html" class="tags">PDF</a>
                 </div>
             </article>
 
