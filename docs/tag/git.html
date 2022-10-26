@@ -36,6 +36,40 @@
 
             <article class="post">
                 <h2 class="title">
+                    <a href="https://tech.summerblue.space/git.html" rel="bookmark" title="Permanent Link to &quot;Git&quot;">Git</a>
+                </h2>
+
+                
+                
+
+                <h5>列出分支所有分支</h5>
+<p>本周遇到一个问题是一开始一个.ts文件的后缀不小心写成了.TS ,反反复复pull push了好几次，每次都要重新修改回.ts 。后来才知道只是更改文件名的大小写在github看起来是没有修改的，必须要先把文件名字改成别的，push之后再改回原来的才行。</p>
+<div class="highlight"><pre><span></span><code>git branch
+</code></pre></div>
+
+<p></p>
+
+<h5>批量删除本地分支</h5>
+<div class="highlight"><pre><span></span><code>git branch | grep ‘dev*’ | xargs git branch -d
+</code></pre></div>
+
+<p>| ：管道命令，用于将一串命令串联起来。前面命令的输出可以作为后面命令的输入。</p>
+<p>grep：搜索过滤命令。使用正则表达式搜索文本，并把匹配的行打印出来。</p>
+<p>xargs：参数传递命令。用于将标准输入作为命令的参数传给下一个命令。</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerblue.space/git.html">posted at 16:57</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerblue.space/category/git.html" rel="tag">Git</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerblue.space/tag/github.html" class="tags">GitHub</a>
+                    &nbsp;<a href="https://tech.summerblue.space/tag/git.html" class="tags selected">Git</a>
+                    &nbsp;<a href="https://tech.summerblue.space/tag/gong-zuo.html" class="tags">工作</a>
+                </div>
+            </article>            <h4 class="date">10月 22, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
                     <a href="https://tech.summerblue.space/github.html" rel="bookmark" title="Permanent Link to &quot;GitHub&quot;">GitHub</a>
                 </h2>
 
