@@ -1,6 +1,6 @@
 Title: Git
 Date: 2022-10-27 11:07:05
-Tags: GitHub, Git, 工作
+Tags: Git
 Category: Git
 
 ##### 列出分支所有分支
