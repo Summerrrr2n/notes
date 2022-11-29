@@ -1,7 +1,7 @@
 AUTHOR = 'SummerBlue'
 SITENAME = "SummerBlue's Tech Note"
 # SITEURL = ''
-SITEURL = 'https://tech.summerblue.space'
+SITEURL = 'https://tech.summerrrrrr.blue'
 
 PATH = 'content'
 
