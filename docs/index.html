@@ -31,7 +31,443 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">
+        <div id="content">            <h4 class="date">3月 01, 2023</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/n5xin-ri-yu-neng-li-kao-shi-kao-qian-dui-ce.html" rel="bookmark" title="Permanent Link to &quot;N5新日语能力考试考前对策&quot;">N5新日语能力考试考前对策</a>
+                </h2>
+
+                
+                
+
+                <h3>形容词分类与变形</h3>
+<h4>1.い形容詞与变形</h4>
+<p>高い（たかい）、いい、大きい（おおきい）</p>
+<h4>2.な形容詞</h4>
+<p>静かな（しずかな）、元気な（げんきな）、、綺麗な（きれいな）</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/n5xin-ri-yu-neng-li-kao-shi-kao-qian-dui-ce.html">posted at 00:15</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/ri-yu.html" rel="tag">日语</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/ri-yu.html" class="tags">日语</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/n5.html" class="tags">N5</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/yu-fa.html" class="tags">语法</a>
+                </div>
+            </article>            <h4 class="date">10月 27, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/git.html" rel="bookmark" title="Permanent Link to &quot;Git&quot;">Git</a>
+                </h2>
+
+                
+                
+
+                <h5>列出分支所有分支</h5>
+<p>本周遇到一个问题是一开始一个.ts文件的后缀不小心写成了.TS ,反反复复pull push了好几次，每次都要重新修改回.ts 。后来才知道只是更改文件名的大小写在github看起来是没有修改的，必须要先把文件名字改成别的，push之后再改回原来的才行。</p>
+<div class="highlight"><pre><span></span><code>git branch
+</code></pre></div>
+
+<p></p>
+
+<h5>批量删除本地分支</h5>
+<div class="highlight"><pre><span></span><code>git branch | grep ‘dev*’ | xargs git branch -d
+</code></pre></div>
+
+<p>| ：管道命令，用于将一串命令串联起来。前面命令的输出可以作为后面命令的输入。</p>
+<p>grep：搜索过滤命令。使用正则表达式搜索文本，并把匹配的行打印出来。</p>
+<p>xargs：参数传递命令。用于将标准输入作为命令的参数传给下一个命令。</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/git.html">posted at 11:07</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/git.html" rel="tag">Git</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/git.html" class="tags">Git</a>
+                </div>
+            </article>            <h4 class="date">10月 22, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/github.html" rel="bookmark" title="Permanent Link to &quot;GitHub&quot;">GitHub</a>
+                </h2>
+
+                
+                
+
+                <h5>文件名大小写不敏感</h5>
+<p>本周遇到一个问题是一开始一个.ts文件的后缀不小心写成了.TS ,反反复复pull push了好几次，每次都要重新修改回.ts 。后来才知道只是更改文件名的大小写在github看起来是没有修改的，必须要先把文件名字改成别的，push之后再改回原来的才行。</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/github.html">posted at 16:57</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/git.html" rel="tag">Git</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/github.html" class="tags">GitHub</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/git.html" class="tags">Git</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/gong-zuo.html" class="tags">工作</a>
+                </div>
+            </article>            <h4 class="date">10月 10, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/wordpressbei-fen-wen-jian-zhuan-markdownpython.html" rel="bookmark" title="Permanent Link to &quot;Wordpress备份文件转Markdown(python)&quot;">Wordpress备份文件转Markdown(python)</a>
+                </h2>
+
+                
+                
+
+                <h6>一、导出Wordpress备份文件</h6>
+<p>从wordpress admin 后台 - 工具 - 到处 -文章，下载导出的文件，<strong>注意，一定要选文章</strong></p>
+<p><img alt="" src="./images/image-20221010133050095.png"></p>
+<h6>二、python转为markdown</h6>
+<p>创建xxx.py文件，代码如下</p>
+<div class="highlight"><pre><span></span><code><span class="err">!</span><span class="p">[</span><span class="n">image</span><span class="o">-</span><span class="mi">20221010135841640</span><span class="p">](</span><span class="o">./</span><span class="n">images</span><span class="o">/</span><span class="n">image</span><span class="o">-</span><span class="mf">20221010135841640.</span><span class="n">png</span><span class="p">)</span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+
+<span class="kn">import</span> <span class="nn">io</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">stdout</span> <span class="o">=</span> <span class="n">io</span><span class="o">.</span><span class="n">TextIOWrapper</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">buffer</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">getText</span><span class="p">(</span><span class="n">element</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">element</span><span class="o">.</span><span class="n">text</span>
+
+
+<span class="k">def</span> <span class="nf">getCategory</span><span class="p">(</span><span class="n">elementList</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">elementList</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s1">&#39;domain&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;category&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">element</span><span class="o">.</span><span class="n">text</span>
+
+
+<span class="k">def</span> <span class="nf">parse</span><span class="p">(</span><span class="n">wordpress_file</span><span class="p">):</span>
+
+    <span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">wordpress_file</span><span class="p">)</span>
+    <span class="n">root</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">getroot</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">post</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">iter</span><span class="p">(</span><span class="s1">&#39;item&#39;</span><span class="p">):</span>
+        <span class="c1"># Title</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">getText</span><span class="p">(</span><span class="n">post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">))</span>
+        <span class="n">output</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_path</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="si">%s</span><span class="s1">.md&#39;</span> <span class="o">%</span>
+                      <span class="n">title</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">),</span> <span class="s1">&#39;w+&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Title: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">title</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outputT</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Title: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">title</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Date</span>
+        <span class="n">date</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;{</span><span class="si">%s</span><span class="s1">}post_date&#39;</span> <span class="o">%</span> <span class="n">wp_namespace</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Date: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">date</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outputT</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Date: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">date</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Tags</span>
+        <span class="n">tags</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;category&#39;</span><span class="p">)</span>
+        <span class="n">tagsList</span> <span class="o">=</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">getText</span><span class="p">,</span> <span class="n">tags</span><span class="p">)))</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Tags: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">tagsList</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outputT</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Tags: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">tagsList</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Category</span>
+        <span class="n">category</span> <span class="o">=</span> <span class="n">getCategory</span><span class="p">(</span><span class="n">tags</span><span class="p">)</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Category: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">category</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outputT</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;Category: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">category</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="n">content</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span>
+            <span class="s1">&#39;{</span><span class="si">%s</span><span class="s1">}encoded&#39;</span> <span class="o">%</span> <span class="n">content_namespace</span> <span class="p">)</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\xa0</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">content</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outputT</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">content</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="c1">###############################################################################</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="c1"># 备份文件绝对路径</span>
+    <span class="n">input_path</span> <span class="o">=</span> <span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">SummerLiu</span><span class="se">\\</span><span class="s2">Downloads</span><span class="se">\\</span><span class="s2">WordPress.2022-10-08 (1).xml&quot;</span>
+
+    <span class="c1"># 目标Markdown文件夹的绝对路径</span>
+    <span class="n">output_path</span> <span class="o">=</span> <span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Users</span><span class="se">\\</span><span class="s2">SummerLiu</span><span class="se">\\</span><span class="s2">Downloads</span><span class="se">\\</span><span class="s2">wordpress</span><span class="se">\\</span><span class="s2">md&quot;</span>
+
+    <span class="c1"># namespace content</span>
+    <span class="n">content_namespace</span> <span class="o">=</span> <span class="s1">&#39;http://purl.org/rss/1.0/modules/content/&#39;</span>
+
+    <span class="c1"># namespace wp</span>
+    <span class="n">wp_namespace</span> <span class="o">=</span> <span class="s1">&#39;http://wordpress.org/export/1.2/&#39;</span>
+
+    <span class="n">outputT</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_path</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">total.md&#39;</span><span class="p">,</span> <span class="s1">&#39;w+&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+    <span class="n">parse</span><span class="p">(</span><span class="n">input_path</span><span class="p">)</span>
+    <span class="n">outputT</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+
+<p>其中，input_path 为 备份文件的绝对路径，output_path为目标Markdown文件夹的绝对路径（文件夹提前建好，否则会报错文件夹不存在）</p>
+<p>用浏览器打开Wordpress备份文件（后缀为.xml），看到下面红框框起来的两个网址，将蓝色网址粘贴到 content_namespace 和 wp_namespace 处进行替换，content_namespace对应xmlns:content后的网址，wp_namespace 对应xmlns:wp后的网址。</p>
+<p><img alt="" src="./images/image-20221010135841640.png"></p>
+<p>运行下面的命令，安装依赖库 lxml</p>
+<p><code>pip install lxml</code></p>
+<p>安装成功后，运行xxx.py文件</p>
+<p><code>python "c:\Users\Downloads\xxx.py"</code></p>
+<p>打开对应的文件夹，即可收获wordpress文章的Markdown文件</p>
+<p><img alt="image-20221010142022693" src="./images/image-20221010142022693.png"></p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/wordpressbei-fen-wen-jian-zhuan-markdownpython.html">posted at 13:23</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/wordpress.html" rel="tag">Wordpress</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/wordpress.html" class="tags">Wordpress</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/bei-fen.html" class="tags">备份</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/markdown.html" class="tags">Markdown</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/pelican.html" class="tags">Pelican</a>
+                </div>
+            </article>            <h4 class="date">9月 27, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/pdfwen-jian-pi-liang-he-bing.html" rel="bookmark" title="Permanent Link to &quot;PDF文件批量合并&quot;">PDF文件批量合并</a>
+                </h2>
+
+                
+                
+
+                <p>一个用于把各个文件夹中的多个pdf合并为一个pdf，并以文件夹的名字为PDF名的小脚本。</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfFileMerger</span>
+
+<span class="n">target_path</span> <span class="o">=</span> <span class="s1">&#39;C:</span><span class="se">\\</span><span class="s1">Users</span><span class="se">\\</span><span class="s1">SummerLiu</span><span class="se">\\</span><span class="s1">Downloads</span><span class="se">\\</span><span class="s1">Summer&#39;</span>
+<span class="n">pdf_lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">target_path</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pdf_lst:  &#39;</span><span class="p">,</span><span class="n">pdf_lst</span><span class="p">)</span>
+<span class="n">pdf_lst</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">target_path</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span> <span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">pdf_lst</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pdf_lst1:  &#39;</span><span class="p">,</span><span class="n">pdf_lst</span><span class="p">)</span>
+<span class="k">for</span> <span class="nb">dir</span> <span class="ow">in</span> <span class="n">pdf_lst</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;dir:  &#39;</span><span class="p">,</span><span class="nb">dir</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;os.listdir(dir):  &#39;</span><span class="p">,</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="nb">dir</span><span class="p">))</span>
+    <span class="n">file_merger</span> <span class="o">=</span> <span class="n">PdfFileMerger</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">pdf</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="nb">dir</span><span class="p">):</span>
+        <span class="n">pdf_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">dir</span><span class="p">,</span> <span class="n">pdf</span><span class="p">)</span>
+        <span class="n">file_merger</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pdf_file</span><span class="p">)</span>
+    <span class="n">file_merger</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">dir</span><span class="o">+</span><span class="s2">&quot;.pdf&quot;</span><span class="p">)</span>
+</code></pre></div>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/pdfwen-jian-pi-liang-he-bing.html">posted at 18:23</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/python.html" rel="tag">python</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/python.html" class="tags">python</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/pdf.html" class="tags">PDF</a>
+                </div>
+            </article>            <h4 class="date">6月 21, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/wen-zi-yi-chu-chu-li.html" rel="bookmark" title="Permanent Link to &quot;文字溢出处理&quot;">文字溢出处理</a>
+                </h2>
+
+                
+                
+
+                <!-- wp:paragraph -->
+<p>style={{ whiteSpace: 'pre-line', textOverflow: 'ellipsis' }}</p>
+<!-- /wp:paragraph -->
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/wen-zi-yi-chu-chu-li.html">posted at 10:19</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/wei-fen-lei.html" rel="tag">未分类</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/wei-fen-lei.html" class="tags">未分类</a>
+                </div>
+            </article>            <h4 class="date">4月 23, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/wei-bo-tochang-mao-xiang-botkai-fa.html" rel="bookmark" title="Permanent Link to &quot;微博to长毛象 bot开发&quot;">微博to长毛象 bot开发</a>
+                </h2>
+
+                
+                
+
+                <!-- wp:paragraph -->
+<p><a href="https://mantyke.icu/2022/weibo2toot/">https://mantyke.icu/2022/weibo2toot/</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/wei-bo-tochang-mao-xiang-botkai-fa.html">posted at 15:16</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/wei-fen-lei.html" rel="tag">未分类</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/wei-fen-lei.html" class="tags">未分类</a>
+                </div>
+            </article>            <h4 class="date">4月 22, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/bug-diao-shi-fang-fa.html" rel="bookmark" title="Permanent Link to &quot;bug 调试方法&quot;">bug 调试方法</a>
+                </h2>
+
+                
+                
+
+                <!-- wp:paragraph -->
+<p><a href="https://pro.ant.design/zh-CN/docs/debug">https://pro.ant.design/zh-CN/docs/debug</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>在我们的开发中，由于对底层的不理解或者兼容性的问题，很有可能会出现白屏或者 Out Of Memory 的问题，也有一些问题没有任何可以 debug 着手的方式。这时候就要用到一些 debug 的方案。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="二分法定位"><a href="https://pro.ant.design/zh-CN/docs/debug#%E4%BA%8C%E5%88%86%E6%B3%95%E5%AE%9A%E4%BD%8D"></a>二分法定位</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>二分法是 debug 中最常用也是最好用的方式，非常适用于我的代码昨天还是好的和各类 Out Of Memory 报错。我们可以程序逻辑一点点注释掉，不断地进行排错，完全能把问题可能出现的范围缩小，然后找出罪魁祸首。再用常规手段调试。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>node 中 Out Of Memory 最常用的方式就是删除一半依赖，然后进行重试来不断缩小范围，直到找个问题所在。二分调试大法每次遇到棘手的 bug，基本上都能解决，程序员必备技能，无关语言。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="小黄鸭法"><a href="https://pro.ant.design/zh-CN/docs/debug#%E5%B0%8F%E9%BB%84%E9%B8%AD%E6%B3%95"></a>小黄鸭法</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>处理 bug 的过程，最难的不是怎么解决问题，而是如何定位代码的 bug，如果实在是一筹莫展，尤其是算法类的问题。我们可以通过小黄鸭法来进行 debug。我们可以找任何物体也可以是同事讲一遍或者讨论一遍，当然上网发帖也是好方式。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="重写一遍"><a href="https://pro.ant.design/zh-CN/docs/debug#%E9%87%8D%E5%86%99%E4%B8%80%E9%81%8D"></a>重写一遍</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>这个方法成本最高，适用于可以乱七八糟的代码，尤其是陈年代码，如果实在搞不懂修不了 bug，可以加好测试用例重新写一遍。毕竟很多的 bug 其实都是错别字。</p>
+<!-- /wp:paragraph -->
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/bug-diao-shi-fang-fa.html">posted at 11:08</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/wei-fen-lei.html" rel="tag">未分类</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/wei-fen-lei.html" class="tags">未分类</a>
+                </div>
+            </article>            <h4 class="date">4月 22, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/qian-duan-xing-neng-you-hua.html" rel="bookmark" title="Permanent Link to &quot;前端性能优化&quot;">前端性能优化</a>
+                </h2>
+
+                
+                
+
+                <!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>图片转Base64</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://pro.ant.design/zh-CN">Ant Design Pro</a>：为了加快加载速度，并且减少网络请求，我们会把小于 1000k 的转化为base64</p>
+<!-- /wp:paragraph -->
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/qian-duan-xing-neng-you-hua.html">posted at 10:25</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/xue-xi.html" rel="tag">学习</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/qian-duan.html" class="tags">前端</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/xue-xi.html" class="tags">学习</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/gong-zuo.html" class="tags">工作</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/xing-neng-you-hua.html" class="tags">性能优化</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/wei-fen-lei.html" class="tags">未分类</a>
+                </div>
+            </article>            <h4 class="date">4月 08, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://tech.summerrrrrr.blue/nodexie-zai-zhong-zhuang-huan-jing-bian-liang-pei-zhi.html" rel="bookmark" title="Permanent Link to &quot;node卸载重装 & 环境变量配置&quot;">node卸载重装 & 环境变量配置</a>
+                </h2>
+
+                
+                
+
+                <!-- wp:paragraph -->
+<p><strong>卸载：</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:list -->
+<ul><li>删除node文件夹，<code>where node</code>&nbsp;命令可以看到安装目录。</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul><li>首先在控制面板的程序中卸载nodejs</li><li>然后删除这两个文件夹</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://img-blog.csdnimg.cn/20210204153059531.png" alt="在这里插入图片描述"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:list -->
+<ul><li>然后检查是否有一下文件夹，若有，就删除<ul><li>c://user/用户名/node_models</li><li>c://Program Fiels/nodejs</li><li>c://user/用户名/AppData/Roaming/npm</li><li>c://user/用户名/AppData/Roaming/npm-cache<br></li></ul></li></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p>参考：https://blog.csdn.net/strawberry_x/article/details/113648770</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>重装：</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>官网下载最新推荐版本msi直接安装即可，参考：https://blog.csdn.net/strawberry_x/article/details/113648770</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>配置环境变量：</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://blog.csdn.net/u012965203/article/details/97612935">https://blog.csdn.net/u012965203/article/details/97612935</a></p>
+<!-- /wp:paragraph -->
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://tech.summerrrrrr.blue/nodexie-zai-zhong-zhuang-huan-jing-bian-liang-pei-zhi.html">posted at 20:46</a>
+                    &nbsp;&middot;&nbsp;<a href="https://tech.summerrrrrr.blue/category/xue-xi.html" rel="tag">学习</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/xue-xi.html" class="tags">学习</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/gong-zuo.html" class="tags">工作</a>
+                    &nbsp;<a href="https://tech.summerrrrrr.blue/tag/huan-jing-pei-zhi.html" class="tags">环境配置</a>
+                </div>
+            </article>
+
+                <div class="clear"></div>
+                <div class="pages">
+
+
+                    <a href="https://tech.summerrrrrr.blue/page/2/" class="next_page">Next&nbsp;&rarr;</a>
+
+                    <span>Page 1 of 2</span>
+                </div>
 
             <div class="clear"></div>
             <footer>
